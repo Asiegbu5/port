@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --clr-white-main:#fff;
+    --clr-lightgreen:rgb(20, 90, 20);
+    --clr-dark:#000;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    padding: 10px 60px;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: var(--clr-white-main);
+
+}
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links ul li{
+    padding: 0 20px;
+}
+.nav-links ul li i{
+    margin: 0 5px;
+}
+.nav-links ul li:hover{
+    box-shadow:lightgreen 0 30px 15px;
+    background: var(--clr-lightgreen);
+    cursor: pointer;
+    rotate:0 9px;
+}
+#home{
+    background: linear-gradient(rgb(50, 50,  90, 0.4),rgb(50, 50, 70, 0.9)),
+    url(image/WIN_20241201_18_48_56_Pro.jpg) no-repeat center/cover;
+    height: 90vh;
+    color: #fff
+}
+.homecontents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.occupation h2{
+    font-size: 3rem;
+}
+.btns button{
+    padding: 13px 65px;
+    background: transparent;
+     border: 2px solid var(--clr-white-main);
+    color: var(--clr-white-main);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.9s ease, background-color 0.9s ease;
+    margin: 0 15px;
+}
+.btns{
+    margin: 15px 0;
+}
+.btns button:hover{
+    transform: translate(-10px);
+    background: var(--clr-lightgreen);
+    color: var(--clr-white-main);
+}
+#body{
+    background: #000;
+
+}
+.bodycontents{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.bodycontents > div{
+    margin: 5px 20px
+}
+.my-biography h2{
+    font-size: 100rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    font-size: 12px;
+}
+/* .image{
+    background: linear-gradient(rgb(30, 30, 30, 0.5),rgb(30, 30, 30, 0.9)),
+    url(image/WIN_20241201_18_48_56_Pro.jpg) no-repeat center/cover;
+    background: #000;
+    width: 20px;
+    height: 20px;
+} */
+#data-image{
+   width: 500px;
+}
+.franklin{
+    background: #000;
+    color: #fff;
+}
+/* .flex-evenly > div{
+            height: 150px;
+            font-size: 2rem;
+            text-align: center;
+            color: var(--clr-white-main);
+            background: var(--clr-main-color);
+            line-height: 8;
+} */
+.credentials{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.btns{
+    border-radius: 15px;
+    margin: 15px 7px;
+    padding: 2px ;
+    color: green;
+}
+#services{
+    text-align: center;
+}
+#services:hover{
+border-bottom: 0, 0, 20, green ;
+cursor: pointer;
+}
+.mycontacts{
+    display: inline-block;
+}
+.mycontacts ul li{
+    display: block;
+}
+.seaport{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 30px;
+}
+.information{
+    background: #ccc;
+}
+.chikodi{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.kettle{
+    text-align: end;
+    margin-right:100px;
+}
+input{
+   width: 390px;
+   height: 45px;
+   border-radius: 5px;
+   margin: 5px;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    margin-top: 1px;
+}
+.rainbow{
+    width: 150px;
+    background: rgb(209, 51, 51);
+    color: #fff;
+}
+.thelma{
+     margin: 4px; 
+}
+.imabong{
+    position: relative;
+    bottom: 200px;
+    color: red;
+    margin: 5px;
+}
+.mum{
+    position: relative; 
+    bottom: 185px;
+    right: 280px;
+    color: red;
+}
+
+
+
+
